@@ -1,0 +1,51 @@
+export const homeObjOne = {
+  id: "about",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Universally Connected",
+  headline: "Build Your Contracts",
+  description:
+    "Use decentralization and cryptographic proofs to connect highly accurate and available data/APIs to any smart contract.",
+  buttonLabel: "Get started",
+  imgStart: false,
+  img: require("../../images/svg-3.svg").default,
+  alt: "Car",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
+export const homeObjTwo = {
+  id: "discover",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Privacy Matters",
+  headline: "Highly Secure and Flexible",
+  description:
+    "Integrate battle-hardened and time-tested oracle solutions that secure billions of dollars in value for market-leading blockchain projects.",
+  buttonLabel: "Learn More",
+  imgStart: true,
+  img: require("../../images/svg-2.svg").default,
+  alt: "Car",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
+export const homeObjThree = {
+  id: "signup",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Join Our Team",
+  headline: "We're Always Growing",
+  description:
+    "Chainlink greatly expands the capability of smart contracts by enabling access to real-world data, guaranteeing secure and reliable blockchain technology.",
+  buttonLabel: "Sign Up",
+  imgStart: false,
+  img: require("../../images/svg-5.svg").default,
+  alt: "Car",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
